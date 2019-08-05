@@ -1,0 +1,20 @@
+#定义普通对象
+type Company {
+    id: ID!
+    com_Name: String!
+    com_Address: String!
+    com_Tel: String!
+}
+
+#定义查询接口，一个schema文件中只能定义一个Query对象
+type Query {
+    findAllCompanys: [Company]!
+    countCompanys: Long!
+}
+
+#定义修改接口
+type Mutation {
+    newCompany(com_Name: String!,
+    com_Address: String!
+    com_Tel: String!) : Company!
+}
