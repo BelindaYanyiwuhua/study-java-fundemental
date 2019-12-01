@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24115a5e-7038-4fd7-970b-363865f0d14a" name="Default Changelist" comment="">
+      <change beforePath="D:/Java/grpc-test/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="D:/Java/grpc-test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="D:/Java/grpc-test/grpc-server/pom.xml" beforeDir="false" />
+      <change beforePath="D:/Java/springboot-grpc-demo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/.idea/libraries/Maven__edu_zju_cst_myproject_user_common_0_0_1_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_24.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_6_Final.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/.idea/user-parent.iml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/user-common/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/user-common/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/user-common/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/user-common/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/user-common/pom.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/user-common/user-common.iml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/user-dao/user-dao.iml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/user-service/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/user-service/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/user-service/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/user-service/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/user-service/pom.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/user-service/src/main/java/IUserService.java" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/user-service/src/main/java/UserService.java" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/item/user-service/user-service.iml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/user-dao/.idea/artifacts/user_dao_war_exploded.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/user-dao/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/user-dao/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/user-dao/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/user-dao/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/user-dao/src/main/java/edu/zju/cst/myproject/model/User.java" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/user-main/user-main.iml" beforeDir="false" afterPath="D:/Program Files (x86)/user-main/user-main.iml" afterDir="false" />
+      <change beforePath="D:/Program Files (x86)/user-service/src/main/java/UserService.java" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/user/user.iml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/usercommon/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/usercommon/usercommon.iml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/userservice/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/userservice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/userservice/src/main/java/IUserService.java" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/userservice/src/main/java/UserService.java" beforeDir="false" />
+      <change beforePath="D:/Program Files (x86)/userservice/userservice.iml" beforeDir="false" />
+      <change beforePath="D:/Program Files/nodejs/node_global/my-vue/index.js" beforeDir="false" />
+      <change beforePath="D:/Program Files/nodejs/node_global/my-vue/schema.graphql" beforeDir="false" />
+      <change beforePath="D:/Program Files/nodejs/node_global/my-vue/src/components/Books.vue" beforeDir="false" />
+      <change beforePath="D:/Program Files/nodejs/node_global/my-vue/src/datasources/book.js" beforeDir="false" />
+      <change beforePath="D:/Program Files/nodejs/node_global/my-vue/src/graphql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDKFinder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDKFinder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDKFinder/JDKFinder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDKFinder/JDKFinder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDKFinder/src/main/java/Chooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDKFinder/src/main/java/Chooser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDKFinder/src/main/java/Enum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDKFinder/src/main/java/Enum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDKFinder/src/main/java/Generics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDKFinder/src/main/java/Generics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDKFinder/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JDKFinder/src/main/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../commons_utility/src/test/java/com/topcoder/commons/utils/ValidationUtilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../commons_utility/src/test/java/com/topcoder/commons/utils/ValidationUtilityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../usercommon/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../usercommon/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userdao/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userdao/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userdao/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userdao/src/main/java/IUserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userdao/src/main/java/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userdao/src/test/java/UserDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userdao/src/test/java/UserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userdao/userdao.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/userservice.iml" beforeDir="false" />
+      <change beforePath="D:/Python/Lib/Graphql_demo/Line.py" beforeDir="false" afterPath="D:/Python/Lib/Graphql_demo/Line.py" afterDir="false" />
+      <change beforePath="D:/Python/Lib/Graphql_demo/graph.py" beforeDir="false" afterPath="D:/Python/Lib/Graphql_demo/graph.py" afterDir="false" />
+      <change beforePath="D:/Python/Lib/Graphql_demo/pie.py" beforeDir="false" afterPath="D:/Python/Lib/Graphql_demo/pie.py" afterDir="false" />
+      <change beforePath="D:/Python/Lib/Mqtt/client.py" beforeDir="false" afterPath="D:/Python/Lib/Mqtt/client.py" afterDir="false" />
+      <change beforePath="D:/Python/Lib/Mqtt/server.py" beforeDir="false" afterPath="D:/Python/Lib/Mqtt/server.py" afterDir="false" />
+      <change beforePath="D:/super_item/user-dao/user-dao.iml" beforeDir="false" />
+      <change beforePath="D:/super_item/user-dao/web/WEB-INF/web.xml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day02/src/DemoStudent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="925">
+              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/DemoStudent1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+              <folding>
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+                <element signature="e#593#594#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/DemoRandom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="875">
+              <caret line="36" column="22" selection-start-line="21" selection-start-column="8" selection-end-line="39" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day02/src/Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1525">
+              <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/day02/src/Demo.java" />
+        <option value="$PROJECT_DIR$/day02/src/DemoArrayReverse.java" />
+        <option value="$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/DemoStudent.java" />
+        <option value="$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/DemoPhone.java" />
+        <option value="$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/Phone.java" />
+        <option value="$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/DemoScanner.java" />
+        <option value="$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/DemoRandom.java" />
+        <option value="$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/DemoArrayList.java" />
+        <option value="$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/DemoString.java" />
+        <option value="$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/DemoStringOut.java" />
+        <option value="$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/Student.java" />
+        <option value="$PROJECT_DIR$/day02/src/DemoStudent.java" />
+        <option value="$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/DemoStudent1.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="70" />
+    <option name="y" value="13" />
+    <option name="width" value="1854" />
+    <option name="height" value="984" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProjectTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="demo01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.DemoStudent1">
+    <configuration name="DemoArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.day01.demo01.DemoArrayList" />
+      <module name="day01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.day01.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.day01.demo01.DemoString" />
+      <module name="day01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.day01.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoStringOut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.day01.demo01.DemoStringOut" />
+      <module name="day01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.day01.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DemoStudent" />
+      <module name="day02" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoStudent1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.day01.demo01.DemoStudent1" />
+      <module name="day01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.day01.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DemoStudent1" />
+        <item itemvalue="Application.DemoStudent" />
+        <item itemvalue="Application.DemoStringOut" />
+        <item itemvalue="Application.DemoString" />
+        <item itemvalue="Application.DemoArrayList" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24115a5e-7038-4fd7-970b-363865f0d14a" name="Default Changelist" comment="" />
+      <created>1574408235020</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574408235020</updated>
+      <workItem from="1574408242486" duration="2877000" />
+      <workItem from="1574735376765" duration="33230000" />
+      <workItem from="1575184117819" duration="2288000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="38395000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="47" y="9" width="1236" height="656" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25382003" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Archetypes" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Designer" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.422" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.58549225" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="GraphQL" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.36" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.328" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.23605497" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Maven-2 Build" order="5" weight="0.32983023" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/day01/day01.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day02/day02.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day02/src/DemoArrayReverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/Phone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/DemoPhone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/DemoScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="31" column="45" selection-start-line="29" selection-start-column="7" selection-end-line="31" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_77/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="100" column="19" lean-forward="true" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/DemoArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="130" column="9" selection-start-line="97" selection-start-column="8" selection-end-line="130" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/DemoString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/DemoStringOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="4" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day02/src/DemoStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/DemoRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="36" column="22" selection-start-line="21" selection-start-column="8" selection-end-line="39" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day02/src/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1525">
+          <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/src/cn/itcast/day01/demo01/DemoStudent1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>day02</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
