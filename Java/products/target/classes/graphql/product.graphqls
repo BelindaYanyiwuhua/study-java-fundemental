@@ -1,0 +1,21 @@
+#定义普通对象
+type Product {
+    id: ID!
+    goodsName: String!
+    goodsType: String!
+    pro_Date: String！
+    company：Company!
+}
+
+extend type Query {
+    findAllProducts: [Product]!
+    countProducts: Long!
+}
+
+extend type Mutation {
+    newProduct(id: ID!,
+    goodsName: String!,
+    goodsType: String!,
+    pro_Date: String,
+    company: ID!) : Product!
+}
